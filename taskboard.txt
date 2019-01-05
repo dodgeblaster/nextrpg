@@ -1,0 +1,120 @@
+----------------------------
+MVP 1 - Base game with controls
+----------------------------
+
+trigger location events - need to throw event and catch it in comp
+can end game (static screen)
+can see intro when app starts (static screen)
+can see start game screen after intro ( show keyboard controls )
+can see start game scene after game is started (static scene)
+can move between 3 rooms and hit end game scene
+can see end game scene (static scene)
+can test everything
+MVP 1 done
+
+
+
+
+
+
+
+----------------------------
+MVP 2 - All screens (placeholders)
+----------------------------
+can trigger trigger events
+can talk to people
+can trigger scene events
+
+can trigger battle (only show party and enemies, no functionality), 
+    and able to end battle by pushing accept button to return to map
+
+can trigger menu screen (only blank screen, no functionality, able to switch back)
+
+make devApp with ability to select room and door and test it out.
+make npm script command to start that app, and npm script to start full game
+MVP 2 done
+
+
+
+----------------------------
+MVP 3 - Story state
+----------------------------
+events in map can push story state forward
+end game tile only appears at certain story state
+maps layout, enemies, and dialogue can change based on state
+update devApp options
+write tests
+MVP 3 done
+
+
+----------------------------
+MVP 4 - Menu - items
+----------------------------
+can open menu and see:
+    - items - see items, dont have to use them yet
+    - characters
+    - equipment
+    - money
+
+can talk to shops and see buying menu
+can buy something can have money taken away
+can see new items
+can assign new equipment to characters
+write tests
+MVP 4 done
+
+
+----------------------------
+MVP 5 - Battle
+----------------------------
+can select attack
+can take turns
+can win battle
+can see stats screen
+can get exp
+can get game over screen
+add devBattle app to try battles out
+add an npm script for it
+write tests
+MVP 5 done
+
+----------------------------
+MVP 6 - Character LevelUp
+----------------------------
+can level up to 10
+can see stats increase
+can learn new magic
+can use new magic in battles
+write tests
+MVP 6 done
+
+
+----------------------------
+MVP 7 - Items 2
+----------------------------
+can use items in battle
+can use items in menu
+write tests
+MVP 7 done
+
+
+
+----------------------------
+MVP 8 - Scenes
+----------------------------
+scenes can play based on script defition and transitions and transition delays
+can recieve player input when needed
+make scene creator devApp where we can select tiles, and put them on a 'stage'
+- have timing easy to determine and have it export an array of values
+create npm script for it
+
+
+
+----------------------------
+MVP 9 - Can save to firebase
+----------------------------
+setup firebase
+setup nodejs backend with zeit now
+add save to menu
+add load game from start screen and have a list of everyones saved game
+able to load saved game into game state

@@ -1,0 +1,42 @@
+movement
+- cant go outof map bounds - check
+- will respect walls (type wall)
+- will fire location event when moving onto square
+- can go to certain location on map change
+- can have 3 maps and can go between them
+
+
+endgame event
+- can trigger scene screen from overhead map
+MVP 1
+
+
+
+trigger events
+- can fire trigger event when i click accept button on tile that has trigger event
+- can trigger dialogue
+- all button events get overwritten to now be dialgoue controls
+- can show paginated convesation in dialogue window
+- can return control over to overhead map after dialogue is done
+
+scene events
+- can trigger scene screen from overhead map
+- can switch back to overhead ma after scene with same location
+
+battle events
+- can trigger battle based on random amount of steps
+- can switch back to overhead map after battle with same location
+
+menu events
+- can trigger menu screen from overhead map
+- can switch back to overhead ma after menu with same location
+MVP 2
+
+
+
+
+shop menu events
+- can trigger shopmenu screen from overhead map
+- can switch back to overhead ma after shopmenu with same location
+
+
